@@ -18,7 +18,6 @@ export default defineConfig({
     outDir: 'docs',
     chunkSizeWarningLimit: 1600,
   },
-  base:'/studywithomid/',
   compilerOptions: {
     isCustomElement: (tag) => tag.startsWith('add-')
   }
