@@ -15,7 +15,8 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    chunkSizeWarningLimit: 1600,
   },
   base:'/studywithomid/',
   compilerOptions: {
