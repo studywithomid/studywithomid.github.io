@@ -16,7 +16,13 @@ import Session from './Session.vue'
 const sessions = [
   {
     name:"1-Hour Session without Break",
-    date:"Apr 01 2024 09:00 EST",
+    date:"May 06 2024 09:00 EST",
+    link:"",
+    end_time:"10:00"
+  },
+  {
+    name:"1-Hour Session without Break",
+    date:"May 13 2024 09:00 EST",
     link:"",
     end_time:"10:00"
   }
